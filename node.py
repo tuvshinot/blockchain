@@ -267,7 +267,7 @@ def get_nodes():
     }
     return jsonify(response), 200
 
-
+# local host - localhost:5000
 if __name__ == '__main__':
     from argparse import ArgumentParser
     parser = ArgumentParser()
